@@ -1,7 +1,7 @@
 Role Nginx
 =========
 
-Установка и настройка vector
+Установка и настройка nginx 
 
 Requirements
 ------------
@@ -21,7 +21,7 @@ Example Playbook
 ----------------
 ```bash
 - name: Install Nginx role
-  hosts: host-lt
+  hosts: host-ng
   roles:
     - nginx_role
 ```
